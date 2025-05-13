@@ -1,0 +1,75 @@
+/* Reset some styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f5f2;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #e67e22;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Menu Sections */
+.menu-section {
+  margin-bottom: 30px;
+}
+
+.menu-section h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Menu Items */
+.menu-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #e67e22;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.menu-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.menu-item p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.menu-item span {
+  float: right;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
+}
