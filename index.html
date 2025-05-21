@@ -2,49 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Delicious Bites | Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TasteBuds Restaurant</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Header -->
   <header>
-    <h1>Delicious Bites</h1>
-    <p>Your Favorite Food, Fresh & Fast</p>
+    <h1>TasteBuds</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section class="menu-section">
-  <h2>Starters</h2>
-  <div class="menu-item">
-    <h3>Garlic Bread</h3>
-    <p>Crispy bread with garlic butter.</p>
-    <span>$4.99</span>
-  </div>
-  <div class="menu-item">
-    <h3>Tomato Soup</h3>
-    <p>Fresh tomatoes with herbs and cream.</p>
-    <span>$5.49</span>
-  </div>
-</section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>
+        <span class="highlight-red">Delicious.</span>
+        <span class="highlight-orange">Fresh.</span>
+        <span class="highlight-yellow">Made with Love.</span>
+      </h2>
+      <p class="intro-text">
+        <span class="highlight-cyan">Experience gourmet flavors</span> at your <span class="highlight-green">neighborhood restaurant</span>.
+      </p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
 
-<section class="menu-section">
-  <h2>Main Courses</h2>
-  <div class="menu-item">
-    <h3>Grilled Chicken</h3>
-    <p>Served with vegetables and mashed potatoes.</p>
-    <span>$12.99</span>
-  </div>
-  <div class="menu-item">
-    <h3>Veggie Pasta</h3>
-    <p>Mixed vegetables in creamy Alfredo sauce.</p>
-    <span>$10.49</span>
-  </div>
-</section>
-  </main>
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to TasteBuds – a culinary haven where tradition meets innovation. Our mission is to bring people together through food that is both flavorful and soul-satisfying. Each dish on our menu is crafted with premium ingredients and a dash of creativity.
+    </p>
+    <p>
+      Whether you're here for a cozy date night or a family feast, we ensure a dining experience that's memorable and unique.
+    </p>
+  </section>
 
+  <!-- Chef -->
+  <section class="chef">
+    <h2>Meet Our Chef</h2>
+    <p>
+      Chef Arjun Rao brings 20+ years of global culinary experience to TasteBuds. Having worked in luxury hotels and studied under Michelin-star chefs, he now leads our kitchen with passion and precision. His secret? Authentic spices, seasonal ingredients, and a love for food that tells a story.
+    </p>
+  </section>
+
+  <!-- Specials -->
+  <section class="specials">
+    <h2>Today's Specials</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Grilled Chicken</h3>
+        <p>Juicy grilled chicken breast with a smoky glaze and veggies.</p>
+      </div>
+      <div class="card">
+        <h3>Pasta Alfredo</h3>
+        <p>Fettuccine in creamy Alfredo sauce, garnished with basil and cheese.</p>
+      </div>
+      <div class="card">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm cake with molten chocolate center, served with vanilla ice cream.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Preview -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-category">
+        <h3>Starters</h3>
+        <ul>
+          <li>Garlic Bread - ₹99</li>
+          <li>Spicy Nachos - ₹129</li>
+          <li>Tomato Basil Soup - ₹109</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Main Course</h3>
+        <ul>
+          <li>Paneer Butter Masala - ₹199</li>
+          <li>Grilled Salmon - ₹349</li>
+          <li>Veggie Burger - ₹149</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Desserts</h3>
+        <ul>
+          <li>Cheesecake - ₹149</li>
+          <li>Brownie with Ice Cream - ₹129</li>
+          <li>Fruit Tart - ₹119</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="events">
+    <h2>Upcoming Events & Offers</h2>
+    <ul>
+      <li>🎉 <strong>Live Music Nights:</strong> Every Friday, 7 PM onwards</li>
+      <li>💥 <strong>Buy 1 Get 1 Free on Starters:</strong> Wednesdays only!</li>
+      <li>🍽 <strong>Family Sunday Buffet:</strong> ₹499/person - Unlimited dishes!</li>
+    </ul>
+  </section>
+
+  <!-- Opening Hours -->
+  <section class="hours">
+    <h2>Opening Hours</h2>
+    <p>Monday – Friday: 11:00 AM – 10:00 PM</p>
+    <p>Saturday – Sunday: 9:00 AM – 11:00 PM</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Flavor Street, Food City, India</p>
+    <p><strong>Phone:</strong> +91-9876543210</p>
+    <p><strong>Email:</strong> contact@tastebuds.in</p>
+    <a href="tel:+919876543210" class="btn">Call for Reservations</a>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>123 Flavor Street, Foodville</p>
-    <p>Contact: 555-FOOD-123</p>
+    <p>&copy; 2025 TasteBuds Restaurant | Follow us on:
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a>
+    </p>
   </footer>
+
 </body>
 </html>
